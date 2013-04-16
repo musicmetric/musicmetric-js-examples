@@ -1,0 +1,78 @@
+
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>Musicmetric</title>
+        <meta name="description" content="Musicmetric">
+        <meta name="author" content="Semetric Ltd.">
+
+        <!-- CSS -->
+        <!--link rel="stylesheet" href="/css/core/style.css?v=2"-->
+        <style>
+            body {
+                font: 10px "Helvetica Neue", "Helvetica", sans-serif;
+                background-color: #eee;
+            }
+            header {
+                margin: 0 auto;
+                width: 800px;
+                position: relative;             
+            }
+            header h1 {
+                font-size: 26px;
+            }
+            header a {
+                color:#666;
+                font-size: 14px;
+                position: absolute;
+                bottom: 0;
+                right:5px;
+            }
+            #chart {
+                margin: 0 auto;
+                background-color: #fff;
+                border-radius: 10px;
+                padding:10px;
+                width:800px;
+                height:500px;
+            }
+            .title {
+                text-align: center;
+                font-size: 14px;
+                fill: #666;
+            }
+            .axis text {
+                fill: #666;
+                stroke: none;
+            }
+            .axis path,
+            .axis line {
+                fill: none;
+                stroke: #ccc;
+                shape-rendering: crispEdges;
+            }
+
+            .line {
+                fill: none;
+                stroke: #bada55;
+                stroke-width: 1.5px;
+            }
+        </style>        
+    </head>
+    
+    <body id="www-musicmetric-com">
+        <header>
+            <h1>Example 2: Visualise multiple timeseries</h1>
+            <a href="docs/example2.html">Annotated source</a>
+        </header>
+        <div id="chart">
+            <!-- Chart container -->
+        </div>
+
+        <!-- SCRIPTS -->
+        <script src="http://code.jquery.com/jquery-1.8.3.min.js"></script>
+        <script src="http://d3js.org/d3.v3.js"></script>
+        <script src="js/example2.js"></script>
+    </body>
+</html>
